@@ -1,0 +1,568 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu h3, .menu .buy-now{
+    display: none;
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+  [aria-expanded="false"] ~ .menu {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ .menu {
+display: block;
+position: absolute;
+right: 0;
+top: var(--size-50);
+background-image: linearGradient(to right, transparent, rgba(255, 255, 255, 0.7));
+width: 100%;
+text-align: right;
+box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
+z-index: 2000;
+  }
+
+
+[aria-expanded="true"] ~ .menu h3 a {
+  margin-right: var(--size-20);
+  color: var(--font-color-dark);
+
+}
+
+.empower-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 37rem;
+}
+
+.asana-div{
+ position: absolute;
+ top: 33.2rem ;
+ left: 36.3rem ;
+}
+.atlassian-div{
+  position: absolute;
+  top: 531px;
+  left: 316px;
+}
+.calendar-div{
+  position: absolute;
+  top: 770px;
+  left: 590px;
+}
+.google-div{
+  position: absolute;
+  top: 532px ;
+  left: 140px;
+}
+.google-A-div{
+  position: absolute;
+  top: 750px;
+  left: 310px;
+}
+.paypal-div{
+  position: absolute;
+  top: 640px;
+  left: 160px ;
+} 
+.weave-div {
+  position: absolute;
+  top: 640px;
+  left: 490px;
+}
+
+.benefit-cards {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.benefit-type {
+  width: 340px;
+  height:260px;
+  align-self: center5;
+  justify-self: center;
+}
+
+.banner-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vid-btn {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+.banner-one img {
+  margin-top: 3rem;
+  align-self: center;
+}
+
+.hubspot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hubphoto {
+  margin-left: 10rem;
+}
+.description {
+  max-width: 35rem;
+  text-align: center;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.pricing-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+}
+
+.price-card {
+  max-width:100rem;
+  width: 75vw;
+  text-align: center;
+  margin-bottom: 5rem;
+  align-self: center;
+  margin-left: 5rem;
+  grid-column: 1/ span 3;
+}
+
+.price-terms {
+  justify-self: center;
+}
+
+#components {
+  grid-row: 3 / 3;
+  grid-column: 1/ 1;
+}
+
+#images {
+  grid-row: 3 / 3;
+  grid-column: 2/ 2;
+
+}
+
+#cancel {
+  grid-row: 4 / 4;
+  grid-column: 1/ 1;
+}
+
+#moneyback {
+  grid-row: 4 / 4;
+  grid-column: 2 / 2;
+
+}
+
+.price-card .hr {
+  border-bottom: 1px solid  #8D8D8D;
+}
+
+.price-card .price{
+ justify-content: center;
+}
+
+.price-card button {
+ align-self: center;
+
+}
+
+.hire {
+ display: flex;
+ flex-direction: column;
+ height: 60rem;
+ width: 100vw;
+ align-items: center;
+ justify-content: flex-start;
+
+}
+
+.hire-us {
+  display: flex;
+margin-top: 0;
+ }
+
+ .hire-us-one {
+  margin-right: 5rem;
+ }
+
+ .hire-us-two {
+  margin-top: 3rem;
+ }
+
+ .moore p {
+  margin-bottom: 1rem;
+ }
+
+ .form {
+ max-width: 200rem;
+ align-self: center;
+ margin-left: 2rem;
+}
+
+.form input[type="text"], .form select {
+  width: 20rem ;
+  align-self: center;
+  justify-content: center;
+}
+
+.form textarea {
+ width: 42rem;
+
+}
+
+.footerone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.address {
+ grid-column: 1 / 1 ;
+ grid-row: 1 / span 2;
+}
+#company {
+  grid-column: 2 / 2 ;
+  grid-row: 1 / 1;
+}
+#features {
+  grid-column: 3 / 3 ;
+  grid-row: 1 / 1;
+}
+#documentation {
+  grid-column: 2 / 2;
+  grid-row:  2 / 2;
+}
+#resources {
+  grid-column: 3 / 3;
+  grid-row: 2 / 2;
+}
+
+footer {
+  margin-left: 5vw;
+}
+}
+
+
+
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .menu h3, .menu .buy-now{
+    display: none;
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+  [aria-expanded="false"] ~ .menu {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ .menu {
+display: block;
+position: absolute;
+right: 0;
+top: var(--size-50);
+background-image: linearGradient(to right, transparent, rgba(255, 255, 255, 0.7));
+width: 100%;
+text-align: right;
+box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
+z-index: 2000;
+  }
+
+
+[aria-expanded="true"] ~ .menu h3 a {
+  margin-right: var(--size-20);
+  color: var(--font-color-dark);
+
+}
+
+.empower-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 37rem;
+}
+
+.asana-div{
+ position: absolute;
+ top: 33.2rem ;
+ left: 36.3rem ;
+}
+.atlassian-div{
+  position: absolute;
+  top: 531px;
+  left: 316px;
+}
+.calendar-div{
+  position: absolute;
+  top: 770px;
+  left: 590px;
+}
+.google-div{
+  position: absolute;
+  top: 532px ;
+  left: 140px;
+}
+.google-A-div{
+  position: absolute;
+  top: 750px;
+  left: 310px;
+}
+.paypal-div{
+  position: absolute;
+  top: 640px;
+  left: 160px ;
+} 
+.weave-div {
+  position: absolute;
+  top: 640px;
+  left: 490px;
+}
+
+.benefit-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 600px;
+
+  }
+  
+  .benefit-type {
+    border: 1px solid transparent;
+    max-width: 520px;
+    width: 60vw;
+    height: 260px;
+    justify-self: center;
+  }
+
+  .banner-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vid-btn {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+  }
+  
+  .banner-one img {
+    margin-top: 3rem;
+    align-self: center;
+    width: 82vw;
+  }
+
+  .points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+   .reasons {
+    flex-direction: row;
+    justify-self:  center;
+    margin-bottom:  2rem;
+    align-items: center;
+   }
+
+   .reasons:nth-child(3) {
+ margin-left: 11vw;
+}
+
+.reasons:nth-child(2) {
+  margin-left: -0.5vw;
+ }
+
+ .reasons:nth-child(1) {
+  margin-left: 2vw;
+ }
+
+ .circle {
+  margin-right: 2rem;
+ }
+
+ .hubspot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hubphoto {
+  margin-left: 10rem;
+}
+.description {
+  text-align: center;
+}
+
+.worldbest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.worldbest img {
+  margin-bottom: 3rem;
+}
+
+
+.pricing-info {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  justify-content: center;
+}
+
+.price, .price-card button {
+  align-self: center;
+}
+
+.price-card {
+  display: flex;
+  max-width:100rem;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 5rem;
+  align-self: center;
+  
+  grid-row: 1/ span 3;
+}
+
+.price-terms {
+  justify-self: center;
+}
+
+#components {
+  grid-row: 4 / 4;
+  grid-column: 1/ 1;
+}
+
+#images {
+  grid-row: 5 / 5;
+  grid-column: 1/ 1;
+
+}
+
+#cancel {
+  grid-row: 6 / 6;
+  grid-column: 1/ 1;
+}
+
+#moneyback {
+  grid-row: 7 / 7;
+  grid-column: 1 / 1;
+
+}
+
+.hire {
+  display: flex;
+  flex-direction: column;
+  height: 70rem;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-start;
+ 
+ }
+ 
+ .hire-us {
+   display: flex;
+   flex-direction: column;
+   margin-top: 0;
+  }
+ 
+  .hire-us-one {
+   display: flex;
+   flex-direction: column;
+   align-self: flex-end;
+   text-align: center;
+   }
+
+  .quote, .inspire p, .divider {
+    max-width: 20rem;
+    width: 20rem;
+  }
+
+  .moore {
+    margin-left: 1.5rem;
+  }
+ 
+  .hire-us-two {
+   margin-top: 1rem;
+   align-self: center;
+   text-align: center;
+  }
+ 
+  .moore p {
+   margin-bottom: 1rem;
+  }
+ 
+  .form {
+  max-width: 30rem;
+  align-self: center;
+  margin-left: 2rem;
+ }
+ 
+ .form input[type="text"], .form select {
+   width: 12rem ;
+   align-self: center;
+   justify-content: center;
+ }
+ 
+ .form textarea {
+  width: 28rem;
+ 
+ }
+
+ .footerone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .address img, .phone {
+  margin-left: 3.5rem;
+ } 
+ .phone {
+  justify-content: center;
+ 
+ }
+
+ .address, .moreinfo {
+  align-items: center;
+ }
+
+ .footertwo {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .footer-socials {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 1rem;
+ }
+
+ #country {
+  grid-column: 1/ span 4;
+ }
+
+ footer {
+  width: 30rem;
+  margin-left: 2rem;
+ }
+}
